@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowDownCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 // import Button from 'react-bootstrap/Button';
@@ -89,7 +89,7 @@ Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covere
 
                 
                   <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    Let’s Connect <ArrowDownCircle size={25} />
                   </button>
                   <br />
                 </div>
@@ -101,3 +101,4 @@ Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covere
     </section>
   );
 };
+ 
