@@ -1,5 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Container, Row, Col } from "react-bootstrap";
+<<<<<<< HEAD
+=======
+import { MailchimpForm } from "./MailchimpForm";
+>>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
 // import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
@@ -10,7 +14,11 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
+<<<<<<< HEAD
          
+=======
+          <MailchimpForm />
+>>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
           {/* <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col> */}

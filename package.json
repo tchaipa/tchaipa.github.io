@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.6.3",
+=======
+>>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -29,7 +32,10 @@
     "react-router-dom": "^6.18.0",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "react-starfield": "^1.0.3",
+=======
+>>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
     "react-switcher-rc": "^1.1.13",
     "typewriter-effect": "^2.21.0",
     "web-vitals": "^2.1.4"
