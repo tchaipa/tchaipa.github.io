@@ -1,17 +1,9 @@
 import { useState, useEffect } from "react";
-<<<<<<< HEAD
-import { Box, Grid } from "@mui/material";
-import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
-=======
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowDownCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 // import Button from 'react-bootstrap/Button';
->>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -62,30 +54,18 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-<<<<<<< HEAD
-        <Row className="align-items-center">
-=======
         <Row className="aligh-items-center">
->>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
                   className={
-<<<<<<< HEAD
-                    isVisible ? "animate__animated animate__bounce" : ""
-                  }
-                >
-                  <h1>
-                    Hi, I'm Tafadzwa
-=======
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
                   {/* <span className="tagline">Welcome to my Portfolio</span> */}
                   <h1>
                     {`Hi! I'm Tafadzwa`}{" "}
->>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
                     <br />
                     <span
                       className="txt-rotate"
@@ -94,48 +74,12 @@ export const Banner = () => {
                     >
                       <span className="wrap">{text}</span>
                     </span>
-<<<<<<< HEAD
-                      
-                  </h1>
-                  <p>
-                   
-                    Your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with PROJECTS and lines of code, turning zeroes and ones into immersive, interactive experiences,
-
-Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covered. I tread the path of minimalism, finding beauty in simplicity and order. When I'm not crafting beautiful web experiences, you can find me reading ARTICLES or swaying to the rhythm of Pop Music & Jazz, losing myself in the captivating flow of melodies. anyways you can CONTACT ME
-                  
-                    
-                  </p>
-
-                <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
-                  <br />
-                </div>
-                  
-              )}
-            </TrackVisibility>
-            
-            {/* <Grid item>
-               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                  py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Zeus</a></p>
-                  <p>&copy; 2024</p>
-               </Box>
-            </Grid> */}
-=======
                   </h1>
                   <p>
                   Your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with PROJECTS and lines of code, turning zeroes and ones into immersive, interactive experiences,
 
 Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covered. I tread the path of minimalism, finding beauty in simplicity and order. When I'm not crafting beautiful web experiences, you can find me reading ARTICLES or swaying to the rhythm of Pop Music & Jazz, losing myself in the captivating flow of melodies. anyways you can CONTACT ME
                   </p>
-
-                  {/* <>
-                  <Button variant="outline-light">Light</Button>{' '}
-                  <Button variant="outline-light">Light</Button>{' '}
-                  <Button variant="outline-light">Light</Button>{' '}
-                  </> */}
-
                 
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowDownCircle size={25} />
@@ -144,14 +88,10 @@ Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covere
                 </div>
               )}
             </TrackVisibility>
->>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
           </Col> 
         </Row>
       </Container>    
     </section>
   );
 };
-<<<<<<< HEAD
-=======
  
->>>>>>> 24e9bb8901908f8fe1cb4f2080b145bbda5d3761
