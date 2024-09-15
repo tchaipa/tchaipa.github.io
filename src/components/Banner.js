@@ -54,7 +54,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -63,7 +63,6 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  {/* <span className="tagline">Welcome to my Portfolio</span> */}
                   <h1>
                     {`Hi! I'm Tafadzwa`}{" "}
                     <br />
